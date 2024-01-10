@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <div class="board">
+
+      <div class="menu">
+        <div class="child-menu">
+          <img src="./images/image-jeremy.png" alt="Jeremy Robson's profile picture">
+          <div class="report-for">Report for</div>
+          <div class="name">Jeremy Robson</div>
+        </div>
+        <div class="choice-container">
+          <div class="choice" id="daily">Daily</div>
+          <div class="choice" id="weekly">Weekly</div>
+          <div class="choice" id="monthly">Monthly</div>
+        </div>
+      </div>
+  
+      <div class="work box">
+        <img src="./images/icon-work.svg" alt="">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Work</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="work-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="work-previous"></span>hrs
+            </div>
+          </div>         
+        </div>
+      </div>
+  
+      <div class="play box">
+        <img src="./images/icon-play.svg" alt="">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Play</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="play-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="play-previous"></span>hrs
+            </div>
+          </div>         
+        </div>
+      </div>
+  
+      <div class="study box">
+        <img src="./images/icon-study.svg" alt="">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Study</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="study-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="study-previous"></span>hrs
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="exercise box">
+        <img src="./images/icon-exercise.svg" alt="" class="exception">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Exercise</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="exercise-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="exercise-previous"></span>hrs
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="social box">
+        <img src="./images/icon-social.svg" alt="">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Social</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="social-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="social-previous"></span>hrs
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="self-care box">
+        <img src="./images/icon-self-care.svg" alt="">
+        <div class="child-box">
+          <div class="header">
+            <div class="header-text">Self Care</div>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="hours-container">
+            <div class="current">
+              <span id="self-care-current"></span>hrs
+            </div>
+            <div class="previous">
+              Last Week - <span id="self-care-previous"></span>hrs
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Wannika123" target="_blank">Wannika</a>.
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
