@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/Wannika123/fem-time-tracking-dashboard)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com](https://wannika123.github.io/fem-time-tracking-dashboard/))
+- Live Site URL: [GitHub Page](https://github.com/Wannika123/fem-time-tracking-dashboard/settings/pages)
 
 ## My process
 
